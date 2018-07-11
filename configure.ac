@@ -112,6 +112,8 @@ CHECK_PAPI()
 
 CHECK_INSTRUMENTATION()
 
+CHECK_OTF2()
+
 # See if HOST_NAME_MAX is declared
 AC_CHECK_DECL(HOST_NAME_MAX,
               [dumpi_hnm=HOST_NAME_MAX],
